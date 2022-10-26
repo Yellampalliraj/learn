@@ -1,0 +1,60 @@
+1)
+  rows=5
+  b=#
+for i in range (rows,#,1):
+ b+=1
+for j in range(1,i+1):
+print(b,end='')
+print('/r')
+
+
+
+
+2) 
+  rows =5
+  b=0
+ for i in range(rows, 0,-1):
+    b+=1
+    for j in range(1, i+1):
+       print(b,end='')
+   print('/r')
+
+
+2)
+1) n=int(input())
+   str_res=""
+   for i in str(n)[::-1]:
+       str_res=str_res+i
+   print(str_res)
+
+2) num = int(input())
+   rest = ""
+ class demo{
+Scanner sc=new Scanner(System.in)
+{
+Int A=sc.nextInt();
+Int B=sc.nextInt();
+   A=A+B;
+   B=A-B;
+   A=A-B;
+System.out.println(A+" " +B);
+
+
+3) email=input()
+   x= email.index("@")
+   print(email[x+1:])
+
+4) def Calculate_GST(org_cost, N_price):
+       return ((N_price - org_cost) *100)/ org_cost):
+   org_cost =100
+   N_price = 120
+   print("GST=",end='')
+   print(round(Calculate_GST(org_cost, N_price)), end='')
+  print("%")
+
+
+3)
+1) <?php
+   $firstquarter=array(1 => 'January','February','March');
+   print_r($firstquarter);
+   ?>
